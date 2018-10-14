@@ -24,14 +24,14 @@
 
 .login-page {
     background-image:url("/img/bg.png"); /* Edited For Dark Theme*/
-}
-
-#login-position-elements {
-    margin: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .login-logo {
 	background:url("/img/logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .login-copyright {
