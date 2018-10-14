@@ -23,15 +23,13 @@
  @import 'checkbox.css';
 
 .login-page {
-    overflow: hidden;
-    text-indent: 100%;
     background-image:url("/img/bg.png"); /* Edited For Dark Theme*/
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #login-position-elements {
-    margin: 13% auto;
+    margin: 11% auto;
 }
 
 .login-logo {
@@ -60,9 +58,9 @@
 
 .pterodactyl-login-box {
     background: rgba(255, 255, 255, 0.09);
-    border: 3px solid #fc3c03;
-    border-radius: 10px;
-    padding: 25px;
+    border: 1px solid #fc3c03;
+    border-radius: 5px;
+    padding: 20px;
 }
 
 .pterodactyl-login-input > input {
@@ -79,7 +77,7 @@
 .pterodactyl-login-button--main {
     background: rgba(0, 0, 0, 0.4);
     border: 1px solid #000;
-    border-radius: 3px;
+    border-radius: 2px;
     color: #fc3c03;
 }
 
@@ -92,14 +90,14 @@
 
 .pterodactyl-login-button--left {
     background: rgba(255, 255, 255, 0.4);
-    border: 2px solid rgba(255, 255, 255, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.6);
     border-radius: 2px;
     color: #fc3c03;
 }
 
 .pterodactyl-login-button--left:hover {
     background: rgba(255, 255, 255, 0.6);
-    border: 2px solid rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.8);
     border-radius: 2px;
     color: #fc3c03;
 }
@@ -436,13 +434,13 @@ input.form-autocomplete-stop[readonly] {
 
 .select-all-files {
     position: relative;
-    bottom: 1px;
+    bottom: 2px;
     margin-right: 7px !important;
 }
 
 .select-file {
     position: relative;
-    bottom: 1px;
+    bottom: 2px;
     margin-right: 2px !important;
 }
 
