@@ -17,8 +17,8 @@ if [ ! -f "artisan" ]; then
 
     echo "Downloading the Theme you picked"
     mkdir -p tempdown && cd tempdown && git clone https://github.com/DarkMasterPT/Pterodactyl-Themes.git . 
-    cp -r Pterodactyl-7/OrangePtero/public ..
-    cp -r Pterodactyl-7/OrangePtero/resources ..
+    cp -r public ..
+    cp -r resources ..
 
     echo "Files have been copied over!"
     sleep 2
