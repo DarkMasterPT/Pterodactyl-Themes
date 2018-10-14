@@ -29,7 +29,7 @@
 }
 
 #login-position-elements {
-    margin: 10% auto;
+    margin: 18% auto;
 }
 
 .login-logo {
@@ -139,7 +139,9 @@ p.small {
 }
 
 .control-sidebar-dark .control-sidebar-menu > li > a.active {
-    background: #fc3c03;
+    background-image:url("/img/bg.png"); /* Edited For Dark Theme*/
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .callout-nomargin {
