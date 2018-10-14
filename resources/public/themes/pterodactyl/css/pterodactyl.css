@@ -23,6 +23,7 @@
  @import 'checkbox.css';
 
 .login-page {
+    background-image:url("/img/bg.png"); /* Edited For Dark Theme*/
     height: auto;
 }
 
@@ -61,7 +62,7 @@ code {
 }
 
 .control-sidebar-dark .control-sidebar-menu > li > a.active {
-    background: #1e282c;
+    background: #fc3c03;
 }
 
 .callout-nomargin {

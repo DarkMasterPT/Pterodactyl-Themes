@@ -23,8 +23,8 @@
  @import 'checkbox.css';
 
 .login-page {
-    background-image: url(img/bg.png); 
-    background: #000000; 
+    background-image:url("/img/bg.png"); /* Edited For Dark Theme*/
+    background: #fc3c03; 
 }
 
 #login-position-elements {
@@ -32,7 +32,7 @@
 }
 
 .login-logo {
-	background: url(img/logo.png) center 0 no-repeat;
+	background:url("/img/logo.png");
     color: #fff;
     font-weight: 400;
 }
