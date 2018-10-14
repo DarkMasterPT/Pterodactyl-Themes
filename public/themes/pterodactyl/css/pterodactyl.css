@@ -24,17 +24,14 @@
 
 .login-page {
     background-image:url("/img/bg.png"); /* Edited For Dark Theme*/
-    background: #fc3c03; 
 }
 
 #login-position-elements {
-    margin: 35% auto;
+    margin: 100% auto;
 }
 
 .login-logo {
 	background:url("/img/logo.png");
-    color: #000;
-    font-weight: 350;
 }
 
 .login-copyright {
