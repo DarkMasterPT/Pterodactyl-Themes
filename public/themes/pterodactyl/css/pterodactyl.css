@@ -29,10 +29,12 @@
 }
 
 #login-position-elements {
-    margin: 25% auto;
+    margin: 10% auto;
 }
 
 .login-logo {
+    overflow: hidden;
+    text-indent: 100%;
 	background:url("/img/logo.png");
     background-repeat: no-repeat;
     background-position: center;
