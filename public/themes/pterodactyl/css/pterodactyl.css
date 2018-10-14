@@ -23,13 +23,15 @@
  @import 'checkbox.css';
 
 .login-page {
+    overflow: hidden;
+    text-indent: 100%;
     background-image:url("/img/bg.png"); /* Edited For Dark Theme*/
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #login-position-elements {
-    margin: 15% auto;
+    margin: 13% auto;
 }
 
 .login-logo {
@@ -58,8 +60,9 @@
 
 .pterodactyl-login-box {
     background: rgba(255, 255, 255, 0.09);
-    border-radius: 5px;
-    padding: 20px;
+    border: 3px solid #fc3c03;
+    border-radius: 10px;
+    padding: 25px;
 }
 
 .pterodactyl-login-input > input {
@@ -77,37 +80,39 @@
     background: rgba(0, 0, 0, 0.4);
     border: 1px solid #000;
     border-radius: 3px;
-    color: #fff;
+    color: #fc3c03;
 }
 
 .pterodactyl-login-button--main:hover {
     background: rgba(0, 0, 0, 0.7);
     border: 1px solid #000;
     border-radius: 2px;
-    color: #fff;
+    color: #fc3c03;
 }
 
 .pterodactyl-login-button--left {
     background: rgba(255, 255, 255, 0.4);
-    border: 1px solid rgba(255, 255, 255, 0.6);
+    border: 2px solid rgba(255, 255, 255, 0.6);
     border-radius: 2px;
-    color: #fff;
+    color: #fc3c03;
 }
 
 .pterodactyl-login-button--left:hover {
     background: rgba(255, 255, 255, 0.6);
-    border: 1px solid rgba(255, 255, 255, 0.8);
+    border: 2px solid rgba(255, 255, 255, 0.8);
     border-radius: 2px;
-    color: #fff;
+    color: #fc3c03;
 }
 
 .weight-100 {
-	font-family: prototyperegular, tahoma, geneva, arial, helvetica, sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    color: rgb(223, 223, 223);
     font-weight: 100;
 }
 
 .weight-300 {
-	font-family: prototyperegular, tahoma, geneva, arial, helvetica, sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    color: rgb(223, 223, 223);
     font-weight: 300;
 }
 
@@ -175,15 +180,15 @@ p.small {
 }
 
 td.has-progress {
-    padding: 0px !important;
-    border-top: 0px !important;
+    padding: 1px !important;
+    border-top: 1px !important;
 }
 
 .progress.progress-table-bottom {
     margin: 0 !important;
     height:5px !important;
-    padding:0;
-    border:0;
+    padding:1;
+    border:1;
 }
 
 .muted {
@@ -392,7 +397,8 @@ span[aria-labelledby="select2-pUserId-container"] {
 }
 
 .strong {
-	font-family: prototyperegular, tahoma, geneva, arial, helvetica, sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    color: rgb(223, 223, 223);
     font-weight: bold !important;
 }
 
@@ -448,7 +454,7 @@ input.form-autocomplete-stop[readonly] {
 
 label.control-label > span {
     font-size: 80%;
-	font-family: prototyperegular, tahoma, geneva, arial, helvetica, sans-serif;
+    font-family: 'Source Code Pro', monospace;
     font-weight: 400;
     font-style: italic;
     color: #dd4b39;
