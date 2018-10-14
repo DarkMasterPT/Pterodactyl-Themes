@@ -29,7 +29,7 @@
 }
 
 #login-position-elements {
-    margin: 18% auto;
+    margin: 15% auto;
 }
 
 .login-logo {
@@ -102,10 +102,12 @@
 }
 
 .weight-100 {
+	font-family: prototyperegular, tahoma, geneva, arial, helvetica, sans-serif;
     font-weight: 100;
 }
 
 .weight-300 {
+	font-family: prototyperegular, tahoma, geneva, arial, helvetica, sans-serif;
     font-weight: 300;
 }
 
@@ -390,6 +392,7 @@ span[aria-labelledby="select2-pUserId-container"] {
 }
 
 .strong {
+	font-family: prototyperegular, tahoma, geneva, arial, helvetica, sans-serif;
     font-weight: bold !important;
 }
 
@@ -445,6 +448,7 @@ input.form-autocomplete-stop[readonly] {
 
 label.control-label > span {
     font-size: 80%;
+	font-family: prototyperegular, tahoma, geneva, arial, helvetica, sans-serif;
     font-weight: 400;
     font-style: italic;
     color: #dd4b39;
