@@ -28,6 +28,10 @@
     background-position: center;
 }
 
+#login-position-elements {
+    margin: 25% auto;
+}
+
 .login-logo {
 	background:url("/img/logo.png");
     background-repeat: no-repeat;
