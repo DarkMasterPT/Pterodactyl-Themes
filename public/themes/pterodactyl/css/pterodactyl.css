@@ -28,13 +28,13 @@
 }
 
 #login-position-elements {
-    margin: 25% auto;
+    margin: 35% auto;
 }
 
 .login-logo {
 	background:url("/img/logo.png");
     color: #fff;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .login-copyright {
@@ -55,14 +55,14 @@
 
 .pterodactyl-login-box {
     background: rgba(255, 255, 255, 0.09);
-    border-radius: 3px;
+    border-radius: 5px;
     padding: 20px;
 }
 
 .pterodactyl-login-input > input {
     background: rgba(0, 0, 0, 0.4);
     border: 1px solid #000;
-    border-radius: 2px;
+    border-radius: 3px;
     color: #fff;
 }
 
@@ -73,7 +73,7 @@
 .pterodactyl-login-button--main {
     background: rgba(0, 0, 0, 0.4);
     border: 1px solid #000;
-    border-radius: 2px;
+    border-radius: 3px;
     color: #fff;
 }
 
@@ -136,7 +136,7 @@ p.small {
 }
 
 .control-sidebar-dark .control-sidebar-menu > li > a.active {
-    background: #1e282c;
+    background: #fc3c03;
 }
 
 .callout-nomargin {
